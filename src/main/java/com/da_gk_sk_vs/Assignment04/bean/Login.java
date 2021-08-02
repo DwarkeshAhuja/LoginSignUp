@@ -1,7 +1,8 @@
 package com.da_gk_sk_vs.Assignment04.bean;
 /*
- *
- * 
+ *  Author: Dwarkesh Ahuja Gurleen Kaur Sukhmeet Kaur Virender Singh
+ *  Date: July 16th 2021 
+ *  Desc : this is the Login Class with uName and uPass as member variables 
  */
 
 public class Login {

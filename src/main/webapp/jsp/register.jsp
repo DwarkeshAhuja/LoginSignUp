@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,44 +8,42 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form:form id="regForm" modelAttribute="user" action="registerProcess"
-		method="post">
+	<form action="registerProcess" method="post">
 
 		<table align="center">
 			<tr>
-				<td><form:label path="username">Username</form:label></td>
-				<td><form:input path="username" name="username" id="username" /></td>
+				<td><label>Username</label></td>
+				<td><input type="text" name="userName" id="userName" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="password">Password</form:label></td>
-				<td><form:password path="password" name="password"
-						id="password" /></td>
+				<td><label>Password</label></td>
+				<td><input type="password" name="password" id="password" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="firstname">FirstName</form:label></td>
-				<td><form:input path="firstname" name="firstname"
-						id="firstname" /></td>
+				<td><label>FirstName</label></td>
+				<td><input type="text" name="firstName"
+						id="firstName" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="lastname">LastName</form:label></td>
-				<td><form:input path="lastname" name="lastname" id="lastname" /></td>
+				<td><label>LastName</label></td>
+				<td><input type="text" name="lastName" id="lastName"/></td>
 			</tr>
 			<tr>
-				<td><form:label path="email">Email</form:label></td>
-				<td><form:input path="email" name="email" id="email" /></td>
+				<td><label>Email</label></td>
+				<td><input type="email" name="email" id="email" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="address">Address</form:label></td>
-				<td><form:input path="address" name="address" id="address" /></td>
+				<td><label>Address</label></td>
+				<td><input type="text" name="address" id="address" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="phone">Phone</form:label></td>
-				<td><form:input path="phone" name="phone" id="phone" /></td>
+				<td><label>Phone</label></td>
+				<td><input type="text"name="phone" id="phone" /></td>
 			</tr>
 
 			<tr>
 				<td></td>
-				<td><form:button id="register" name="register">Register</form:button></td>
+				<td><input type="submit" id="register" name="register" value="register"/></td>
 			</tr>
 			<tr></tr>
 			<tr>
@@ -52,6 +51,6 @@
 				<td><a href="home.jsp">Home</a></td>
 			</tr>
 		</table>
-	</form:form>
+	</form>
 </body>
 </html>

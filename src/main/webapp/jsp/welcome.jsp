@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<table>
+	<table align="center">
 		<tr>
 			<td>Welcome ${firstname}</td>
 		</tr>

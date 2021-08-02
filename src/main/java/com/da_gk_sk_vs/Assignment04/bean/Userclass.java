@@ -1,4 +1,9 @@
 package com.da_gk_sk_vs.Assignment04.bean;
+/*
+ *  Author: Dwarkesh Ahuja Gurleen Kaur Sukhmeet Kaur Virender Singh
+ *  Date: July 16th 2021 
+ *  Desc : this is the Userclass with user details as member variables 
+ */
 
 public class Userclass {
 
@@ -8,6 +13,15 @@ public class Userclass {
 	private String lastName;
 	private String address;
 	private String email;
+	private String phone;
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 
 	public String getEmail() {
 		return email;
@@ -17,7 +31,6 @@ public class Userclass {
 		this.email = email;
 	}
 
-	private String phoneNo;
 
 	public String getUserName() {
 		return userName;
@@ -57,14 +70,6 @@ public class Userclass {
 
 	public void setAddress(String address) {
 		this.address = address;
-	}
-
-	public String getPhoneNo() {
-		return phoneNo;
-	}
-
-	public void setPhoneNo(String phoneNo) {
-		this.phoneNo = phoneNo;
 	}
 
 }
